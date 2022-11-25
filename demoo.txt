@@ -1,0 +1,472 @@
+#Python Program for Linear Search
+# x=[1,4,5,3,7,8]
+# a=int(input("enter the search number"))
+# flag=0
+# for i in range(0,len(x)):
+#     if a==x[i]:
+#         flag=i+1
+#         break
+#
+# if flag==0:
+#         print("no not find")
+# else:
+#     print("number are foundin ",flag,"position")
+# x=[10,20,30,40,50,60,70,80]
+# a=int(input('enter your number'))
+# flaf=0
+# for i in range(0,len(x)):
+#     if a==x[i]:
+#         flaf=i+1
+#         break
+# if flaf==0:
+#     print('number not find')
+# else:
+#     print('number are find',flaf,'position')
+
+
+#
+# x=[1,2,4,5,7]
+# a=int(input("enter the number "))
+# flasg=0
+# for i in range(0,len(x)):
+#     if a==x[i]:
+#         flasg=i+1
+# if flasg==0:
+#     print("number not found")
+# else:
+#     print("number found",flasg)
+
+#linear searh
+# x=[1,4,2,7,8,3]
+# b=int(input("enter the number"))
+# flag=0
+# for i in range(0,len(x)):
+#     if b==x[i]:
+#         flag=i+1
+#         print("givin number are find")
+# if flag==0:
+#     print("given number are not find")
+# else:
+#     print("given number are ",flag,"location")
+
+#Bubble sort
+# x=[1,4,2,3,5,4]
+# for i in range(0,len(x)):
+#     for j in range(0,len(x)-1):
+#         if x[j]>=x[j+1]:
+#             c=x[j]
+#             x[j]=x[j+1]
+#             x[j+1]=c
+# print(x)
+#Bubble sort in python
+# x=[10,50,10,40,6.,80]
+# for i in range(0,len(x)):
+#     for j in range(0,len(x)-1):
+#         if x[j]>=x[j+1]:
+#             c=x[j]
+#             x[j]=x[j++1]
+#             x[j+1]=c
+# print(x)
+
+# x=[10,20,330,40,1,5,9]
+#
+# for i in range(0,len(x)):
+#     for j in range(0,len(x)-1):
+#         if x[j]>=x[j+1]:
+#             c=x[j]
+#             x[j]=x[j+1]
+#             x[j+1]=c
+# print(x)
+
+
+
+
+
+
+#Linear search
+# x=[10,30,20,50,40]
+# n=int(input("enter the number "))
+# flag=0
+# for i in range(0,len(x)):
+#     if n==x[i]:
+#         flag=i+1
+# if flag==0:
+#     print("number not find")
+# else:
+#     print("number are found,",flag)
+#
+# x=[10,20,30,40,50,40,50]
+# for i in range(0,len(x)):
+#     for j in range(0,len(x)-1):
+#         if x[j]>=x[j+1]:
+#             c=x[j]
+#             x[j]=x[j+1]
+#             x[j+1]=c
+# print(x)
+
+# x=[1,2,3,4]
+# b=int(int(input('enter given number')))
+# c=0
+# for i in range(len(x)):
+#     if b==x[i]:
+#         c=c+1
+# if c==0:
+#     print('number not find')
+# else:
+#     print("number find",c,"location")
+
+
+
+
+#Write a python program for string that will print out char with char count.
+#E.g. words = 'aaaabahhhhhaaa' Output should be a4b1a1h5
+# a='aaaabahhhhhaaa'
+# b={}
+# for i in a:
+#     if i in b.keys():
+#         b[i]=b[i]+1
+#     else:
+#         b[i]=1
+# for k,v in b.items():
+#     print("{}{}".format(k,v),end="")
+# #7. write a program for character count string "aaabbbccaa" for output:a5b3c2
+#
+# a="aaabbbccaa"
+# b={}
+# for i in a:
+#     if i in b.keys():
+#         b[i]=b[i]+1
+#     else:
+#         b[i]=1
+#
+# for k,v,in b.items():
+#     print("{}{}".format(k,v),end="")
+
+# a="aassdeddefggggre"
+# b={}
+# for i in a:
+#     if i
+#     in b.keys():
+#         b[i]=b[i]+1
+#     else:
+#         b[i]=1
+# for k,v in b.items():
+#     print("{}{}".format(k,v),end='')
+
+# a="aaaanikaadccaed"
+# b={}
+# for i in a:
+#     if i in b.keys():
+#         b[i]=b[i]+1
+#     else:
+#         b[i]=1
+# for k,v,in b.items():
+#     print("{}{}".format(k,v),end='')
+
+#Write a python program for string that will print out char with char count.
+#E.g. words = 'aaaabahhhhhaaa' Output should be a4b1a1h5
+
+
+
+
+#Python Program for Binary Search (Recursive and Iterative)
+# x=[1,2,3,4,5,6,7,8,9,10]
+# n=int(input("enter the search number"))
+# flag=0
+# last=len(x)-1
+# while flag<=last:
+#     mid=(flag+last)//2
+#     if x[mid]==n:
+#         print("number in  x",mid+1,"location")
+#         break
+#     elif x[mid]>n:
+#         last=mid-1
+#     else:
+#         flag>last
+# if flag>last:
+#     print("number not avaible in list")
+
+# binary search orogram
+# x=[1,2,3,4,5,7,9,8,10,9]
+# x.sort()
+# print(x)
+# # n=int(input("enter the number"))
+# # first=0
+# # last=len(x)-1
+# # while first<=last:
+# #     mid=(first+last)//2
+# #     if x[mid]==n:
+# #         print("number in",mid+1,'location')
+# #         break
+# #     elif x[mid]>n:
+# #         last=mid-1
+# #     else:
+# #         first=mid+1
+# # if first>last:
+# #     print("number not found")
+
+
+##bubble sort in python method
+# x=[5,4,3,8,1]
+# for i in range(0,len(x)):
+#     for j in range(0,len(x)-1):
+#         if x[j]>=x[j+1]:
+#             c=x[j]
+#             x[j]=x[j+1]
+#             x[j+1]=c
+# print(x)
+
+
+#Get Current Date and Time using Python
+# import datetime
+# now=datetime.datetime.now()
+# print("current date and time is")
+# print(now.strftime("%y-%m-%d %H:%M:%S")
+# date1=dt.strftime("%B,%d,%y")
+# print(date1)
+
+#current date and time
+# from time import*
+# et=ctime()
+# print(et)
+#Python program to get Current Time
+# from  datetime import datetime
+# now=datetime.now()
+# print("current time")
+# print(now.strftime("%H:%M:%S"))
+
+#Python | Find yesterday’s, today’s and tomorrow’s date
+# import datetime
+# today=datetime.datetime.today()
+# yestraday=today-datetime.timedelta(days=2)
+# tomorrow=today+datetime.timedelta(days=1)
+# print(today)
+# print(yestraday)
+# print(tomorrow)
+#Python program to convert time from 12 hour to 24 hour format
+# def timeconverter(string):
+#     if string[-2:]=='AM' and string[:2]=='12':
+#         return "00"+string[2:-2]
+#     elif string[-2:]=='AM':
+#         return string[:-2]
+#     elif string[-2:]=='pm' and string and string[:2]=='12':
+#         return string [:-2]
+#     else:
+#         return string(int(string[:2])+12)+string[2:8]
+# print(timeconverter("12:05:50 AM"))
+
+#Python program to find difference between current time and given time
+
+# def difference(h1,m1,h2,m2):
+#     t1=h1*60+m1
+#     t2=h2*60+m2
+#     if (t1==t2):
+#         print("both are same time")
+#         return
+#     else:
+#         diff=t2-t1  # calculating hours from
+#     # difference
+#     h=(int(diff/60))%24
+#     # calculating minutes from
+#     # difference
+#     m=diff%60
+#     print(h,":",m)
+# if __name__ == "__main__":
+#     difference(15,23,18,54)
+import datetime
+
+#difference betwin current time and given time
+    # def difference(h1,m1,h2,m2):
+    #     t1=h1*60+m1
+    #     t2=h2*60+m2
+    #     if (t1==t2):
+    #         print("both time are same")
+    #     else:
+    #         diff=t2-t1
+    #         h=int((diff/60))%24
+    #         m=diff%60
+    #         print(h,":",m)
+    # difference(3,40,5,60)
+
+# import time
+# initial=time.time()
+# k=1
+# while (k<=40):
+#     print("hi nikhil",time.time()-initial,"second")
+#     k+=1
+# initial1=time.time()
+# for i in range(45):
+#     print("hi avanti",time.time()-initial1,"second")
+# #Convert date string to timestamp in Python
+# import time
+# import datetime
+#
+# s="01/10/2021"
+# print()
+# print(time.mktime(datetime.datetime.strptime(s,"%d/%m/%Y").timetuple()))
+# print()
+
+
+# Python program to read file word by word
+# f=open("today assignment10.txt",mode='w')
+# f.write("Baa, baa, black sheep Have you any wool?Yes sir, yes sir Three bags full One for the master One for the dame And one for the little boy Who lives down the lane")
+# f.close()
+# f=open("today assignment10.txt",mode='r')
+# s=f.read()
+# for i in s.split():
+#     print(i)
+# f.close()
+
+# Python program to read character by character from a file
+# f=open("today assignment1.txt",mode="r")
+# s=f.read()
+# cunt=0
+# for i in s:
+#     if i=="n":
+#         cunt=cunt+1
+# print(cunt)
+# f.close()
+
+#Python Program to obtain the line number in which given word is present
+
+# f=open("today assignment1.txt",mode="r")
+# lines = len(f.readlines())
+# print("total number of lines",lines)
+# f.close()
+
+#python Program to Eliminate repeated lines from a file
+# f1=open("today assignment1.txt","r")
+# data1=f1.readlines()
+# for d1 in data1:
+#     f2=open("today assignment1.txt","r")
+#     data2=f2.readlines()
+#     if d1 not in data2:
+#         f2=open("today assignment1.txt","a+")
+#         f2.write(d1)
+
+
+#8. Python – Append content of one text file to another
+# f=open("today assignment3.txt",mode="w")
+# f.write("What is the Johnny Johnny Yes Papa meme?Image result for jony jony yes pappaBillion Surprise Toys/YouTube. The meme seems to be everywhere. They're from a series of videos for kids by the company Billion Surprise Toys, based on a nursery rhyme where a father tries to stop his son Johny from eating sugar.")
+# f.close()
+# f1=open("today assignment1.txt","r")
+# data1=f1.readlines()
+# for d1 in data1:
+#     f2=open("today assignment2.txt","a")
+#     f2.write(d1)
+#
+
+#10. Python Program to merge two files into a third file
+
+# f1=open("today assignment1.txt",mode="r")
+# date1=f1.readline()
+# for i in date1:
+#     f3=open("today assignment3.txt",mode='a')
+#     f3.write(i)
+# f2=open("today assignment2.txt",mode="r")
+# data2=f2.readlines()
+# for d2 in data2:
+#     f3=open("today assignment3.txt","a")
+#     f3.write(d2)
+
+
+#Problem: Remove specified characters in a string irrespective of the
+#case.char_to_remove =['A','N'] string= 'Think Analytics'
+# string='Think Analytics'
+# new_char=''
+# for char in string:
+#     if char !='A'and'n':
+#         new_char+=char
+#
+# print(new_char)
+#remove spical charcter in string
+# mytxt = 'python -- is. easy!'
+#
+# res_txt = ''
+#
+# for character in mytxt:
+#
+# if character.isalnum():
+#
+# res_txt += character
+#
+# print(res_txt)
+
+
+# name="nikhil#$@"
+# new=''
+# for i in name:
+#     if i.isalnum():
+#         new+=i
+# print(new)
+
+# name='nikhl@#10avanti'
+# new=''
+# for i in name:
+#     if i.isalnum():
+#         new+=i
+# print(new)
+
+
+# import re
+
+# mytxt = 'python -- is. easy!'
+#
+# res_txt = ''.join(filter(str.isalnum, mytxt))
+#
+# print(res_txt)
+
+# name='python-----is .easy!!'
+# new_name="".join(filter(str.isalnum,name))
+# print(new_name)
+# import csv
+# with open('xyz.csv','w') as b:
+#     file=csv.writer(b)
+#     file.writerow(['roll_no','name','last_name'])
+#     b.close()
+
+
+#csv file
+# import csv
+# with open('student1.csv','w') as f:
+#     file=csv.writer(f)
+#     for i in range(5):
+#         roll=int(input('enter roll number'))
+#         name=input('enter your name')
+#         last_name=input('enter your last name')
+#         result=[roll,name,last_name]
+#         file.writerow(result)
+
+#4Python | Finding ‘n’ Character Words in a Text File
+# #
+# f=open("abc.txt","r")
+# z1=f.readlines()
+# for line in z1:
+#    word=line.split()
+#    for w in word:
+#         length=len(w)
+#         if length==4:
+#             print(w)
+
+#marage two file with thired file
+
+# f=open("uj.txt",mode='w' )                   #uj and uj1 and uj2 are new file created and after 2 file are marage in thired uj3 fiel are find below procees.
+# f.write("hi iam nikhl avanti")
+# f.close()
+# f=open('uj2.txt',mode='w')
+# f.write("iam from solapur")
+# f.close()
+# f=open("uj3.txt",mode='w')
+# f.write('iam softwer engineer')
+# f.close()
+#
+# f1=open('uj.txt',mode='r')
+# d1=f1.readline()
+# for i in d1:
+#     f2=open('uj3.txt',mode='a')
+#     f2.write(i)
+# f3=open('uj2.txt',mode='r')
+# d2=f3.readline()
+# for i2 in d2:
+#     f2=open('uj3.txt',mode='a')
+#     f2.write(i2)
